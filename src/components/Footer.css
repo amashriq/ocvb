@@ -38,7 +38,6 @@
   height: 150px;
   background: linear-gradient(90deg, #ffffff 0%, #f3efef 100%);
   width: 2px; 
-  
 }
 
 .footer-text {
@@ -47,14 +46,8 @@
   line-height: 1; /* Line height of the text */
 }
 
-.footer-text a {
-  color: white; /* Color of the links */
-  text-decoration: none; /* Remove underline from links */
-  transition: color 0.3s ease;
-}
-
 .footer-link {
-  margin-right: 16px; /* Adjust the gap as needed */
+  margin-right: 12px; /* Adjust the gap as needed */
   transition: transform 0.3s ease, color 0.3s ease;
   display: inline-block;
 }
@@ -63,6 +56,25 @@
   color: #f3efef; /* Change color on hover */
   transform: scale(1.1);
 }
+
+.InstaIcon {
+  color: #e4405f; /* Instagram color */
+  transition: color 0.3s ease;
+}
+
+.InstaIcon:hover {
+  color: white; /* Desired hover color */
+}
+
+.FbIcon {
+  color: #3b5998; /* Facebook color */
+  transition: color 0.3s ease;
+}
+
+.FbIcon:hover {
+  color: white; /* Desired hover color */
+}
+
 @media (max-width: 960px) {
   .footer-content {
     flex-direction: column; /* Stack items vertically */

@@ -21,7 +21,7 @@ const Footer = () => {
             <a className="footer-link" href="https://www.instagram.com/ocvball" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faInstagram} size="2x" className = "InstaIcon" />
             </a>
-            <a className="footer-link" href="https://www.facebook.com/ocvball" target="_blank" rel="noopener noreferrer">
+            <a className="footer-link" href="https://www.facebook.com/p/OC-Volleyball-100093042030850/" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faFacebook} size="2x" className = "FbIcon" />
             </a>
           </div>
