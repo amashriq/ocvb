@@ -52,3 +52,32 @@
   text-decoration: none; /* Remove underline from links */
   transition: color 0.3s ease;
 }
+
+.footer-link {
+  margin-right: 16px; /* Adjust the gap as needed */
+  transition: transform 0.3s ease, color 0.3s ease;
+  display: inline-block;
+}
+
+.footer-link:hover {
+  color: #f3efef; /* Change color on hover */
+  transform: scale(1.1);
+}
+@media (max-width: 960px) {
+  .footer-content {
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start; /* Align items to the left */
+  }
+
+  .footer-logo-image {
+    height: 100px; /* Reduce height for smaller screens */
+  }
+
+  .footer-title {
+    padding-top: 10px;
+  }
+
+  .divider {
+    height: 50px; /* Reduce height */
+  }
+}
