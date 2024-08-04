@@ -1,0 +1,54 @@
+.footer {
+  background-color: #000000; /* Example background color */
+  color: white;
+  padding: 10px;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center; /* Align items vertically in the center */
+  justify-content: space-between; /* Distribute space between child elements */
+  width: 100%;
+}
+
+.footer-logo {
+  padding: 0 20px; /* Space between the logo and the main content */
+  padding-top: 10px;
+  transition: transform 0.3s ease;
+}
+
+.footer-logo:hover {
+  transform: scale(1.1);
+}
+
+.footer-logo-image {
+  height: 150px; /* Adjust the height as needed */
+}
+
+.footer-right {
+  display: flex;
+  align-items: center; /* Align items vertically in the center */
+}
+
+.footer-title {
+  padding: 0 20px;
+}
+
+.divider {
+  height: 150px;
+  background: linear-gradient(90deg, #ffffff 0%, #f3efef 100%);
+  width: 2px; 
+  
+}
+
+.footer-text {
+  font-size: 1.25rem; /* Font size of the text */
+  padding: 0 20px; /* Spacing around the text */
+  line-height: 1; /* Line height of the text */
+}
+
+.footer-text a {
+  color: white; /* Color of the links */
+  text-decoration: none; /* Remove underline from links */
+  transition: color 0.3s ease;
+}

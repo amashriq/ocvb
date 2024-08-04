@@ -1,0 +1,53 @@
+/* Hero Container */
+.hero-container {
+    position: relative;
+    height: 92vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    overflow: hidden;
+  }
+  
+  /* Background Image */
+  .hero-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../assets/images/oc1.jpeg') center center/cover no-repeat;
+    filter: brightness(70%); /* Apply your desired filter here */
+    z-index: -1; /* Ensure it stays behind other content */
+  }
+  
+  /* Overlay for text */
+  .hero-overlay {
+    position: relative;
+    z-index: 1; /* Ensure text is above the background */
+    color: white;
+    font-family: 'Roboto', sans-serif; /* Use Roboto font */
+    text-align: left;
+  }
+  
+  .hero-container h1 {
+    font-size: 5rem; /* Larger heading size */
+    font-weight: bold; /* Bold text */
+    margin: -50px 0 0 0;
+    padding: 0 20px;
+    line-height: .9;
+    white-space: pre-wrap;
+    text-transform: uppercase; /* Uppercase for a professional look */
+    letter-spacing: 1px; /* Spacing between letters */
+  }
+  
+  .hero-container p {
+    font-size: 1.25rem;
+    margin-top: 20px;
+    max-width: 800px;
+    padding: 0 20px;
+    line-height: 1.6;
+  }
+  
