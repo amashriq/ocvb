@@ -37,7 +37,7 @@
 .divider {
   height: 150px;
   background: linear-gradient(90deg, #ffffff 0%, #f3efef 100%);
-  width: 2px; 
+  width: 2px;
 }
 
 .footer-text {
@@ -48,7 +48,9 @@
 
 .footer-link {
   margin-right: 12px; /* Adjust the gap as needed */
-  transition: transform 0.3s ease, color 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    color 0.3s ease;
   display: inline-block;
 }
 
@@ -69,7 +71,7 @@
 .FbIcon {
   color: white; /* Facebook color */
   transition: color 0.3s ease;
-  transform: scale(.9);
+  transform: scale(0.9);
 }
 
 .FbIcon:hover {

@@ -1,63 +1,62 @@
 .contact-link-container {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin-top: 10px;
-  }
-  
-  .contact-link-insta,
-  .contact-link-fb,
-  .contact-link-email {
-    margin: 0 10px; /* Adjust spacing between links */
-    text-decoration: none; /* Remove underline */
-    display: flex; /* Keep the icon and text aligned */
-    align-items: center; /* Align items vertically */
-    font-size: 1.5rem; /* Optional: adjust font size */
-    
-    color: white; /* Default text color */
-    transition: color 0.3s ease; /* Smooth transition for text color */
-  }
-  
-  /* Change text color on hover */
-  .contact-link-insta:hover,
-  .contact-link-fb:hover,
-  .contact-link-email:hover {
-    color: inherit; /* Ensure the text color inherits from the icon */
-  }
-  
-  /* Change icon color on hover */
-  .contact-link-insta:hover .Insta-Icon {
-    color: #e4405f; /* Change Instagram icon color on hover */
-  }
-  
-  .contact-link-fb:hover .Fb-Icon {
-    color: #3b5998; /* Change Facebook icon color on hover */
-  }
-  
-  .contact-link-email:hover .Email-Icon {
-    color: #FFFDD0; /* Change email icon color on hover */
-  }
-  
-  /* Margin for the icons */
-  .contact-link-insta svg,
-  .contact-link-fb svg,
-  .contact-link-email svg {
-    margin-right: 8px; /* Space between icon and text */
-    transition: color 0.3s ease; /* Smooth transition for icon color */
-  }
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 10px;
+}
 
-  .contact-link-insta svg {
-    transform: scale(1.1);
-  }
-  
-  /* Optional: Add a subtle scale effect on hover */
-  .contact-link-insta:hover,
-  .contact-link-fb:hover,
-  .contact-link-email:hover {
-    transform: scale(1.05); /* Scale up slightly on hover */
-    transition: transform 0.3s ease; /* Ensure the scale transition is applied */
-  }
-  
+.contact-link-insta,
+.contact-link-fb,
+.contact-link-email {
+  margin: 0 10px; /* Adjust spacing between links */
+  text-decoration: none; /* Remove underline */
+  display: flex; /* Keep the icon and text aligned */
+  align-items: center; /* Align items vertically */
+  font-size: 1.5rem; /* Optional: adjust font size */
+
+  color: white; /* Default text color */
+  transition: color 0.3s ease; /* Smooth transition for text color */
+}
+
+/* Change text color on hover */
+.contact-link-insta:hover,
+.contact-link-fb:hover,
+.contact-link-email:hover {
+  color: inherit; /* Ensure the text color inherits from the icon */
+}
+
+/* Change icon color on hover */
+.contact-link-insta:hover .Insta-Icon {
+  color: #e4405f; /* Change Instagram icon color on hover */
+}
+
+.contact-link-fb:hover .Fb-Icon {
+  color: #3b5998; /* Change Facebook icon color on hover */
+}
+
+.contact-link-email:hover .Email-Icon {
+  color: #fffdd0; /* Change email icon color on hover */
+}
+
+/* Margin for the icons */
+.contact-link-insta svg,
+.contact-link-fb svg,
+.contact-link-email svg {
+  margin-right: 8px; /* Space between icon and text */
+  transition: color 0.3s ease; /* Smooth transition for icon color */
+}
+
+.contact-link-insta svg {
+  transform: scale(1.1);
+}
+
+/* Optional: Add a subtle scale effect on hover */
+.contact-link-insta:hover,
+.contact-link-fb:hover,
+.contact-link-email:hover {
+  transform: scale(1.05); /* Scale up slightly on hover */
+  transition: transform 0.3s ease; /* Ensure the scale transition is applied */
+}
 
 @media (max-width: 960px) {
   .contact-link-container {

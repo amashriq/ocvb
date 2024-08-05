@@ -7,7 +7,9 @@
   align-items: flex-start; /* Align items to the top */
   justify-content: center; /* Center items horizontally */
   overflow: hidden; /* Prevent overflow */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, .5), 0 -4px 10px rgba(0, 0, 0, .5);
+  box-shadow:
+    0 4px 10px rgba(0, 0, 0, 0.5),
+    0 -4px 10px rgba(0, 0, 0, 0.5);
 }
 
 .section-background {
@@ -27,7 +29,7 @@
   text-align: left;
   top: 5%; /* Adjust as needed */
   z-index: 1; /* Ensure it stays above the background */
-  padding: 0 20px; 
+  padding: 0 20px;
 }
 
 .link {
@@ -63,10 +65,10 @@
 /* Optional: Add styles for responsiveness */
 @media (max-width: 960px) {
   .section-content h1 {
-      font-size: 2rem;
+    font-size: 2rem;
   }
 
   .section-content p {
-      font-size: 1rem;
+    font-size: 1rem;
   }
 }

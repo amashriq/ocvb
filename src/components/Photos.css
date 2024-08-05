@@ -1,33 +1,36 @@
 .link-container {
-    line-height: 1;
-    padding-top: 10px;
+  line-height: 1;
+  padding-top: 10px;
 }
 
-.photos-link, .credit-link {
-    font-size: 20px;
-    color: white; /* Set link color to white */
-    font-weight: bold;
-    text-decoration: none; /* Optional: Remove underline */
-    transition: transform 0.3s ease, color 0.3s ease;
-  }
+.photos-link,
+.credit-link {
+  font-size: 20px;
+  color: white; /* Set link color to white */
+  font-weight: bold;
+  text-decoration: none; /* Optional: Remove underline */
+  transition:
+    transform 0.3s ease,
+    color 0.3s ease;
+}
 
 .photos-link {
-    font-size: 30px;
+  font-size: 30px;
 }
 
-.photos-link:hover, .credit-link:hover {
-    color: #000000;
-    text-decoration: none;
-    }
+.photos-link:hover,
+.credit-link:hover {
+  color: #000000;
+  text-decoration: none;
+}
 
-    @media (max-width: 960px) {
-        .photos-link,
-        .credit-link {
-          font-size: 16px; /* Reduce font size for mobile view */
-        }
-      
-        .photos-link {
-          font-size: 24px; /* Adjusted size for photos-link */
-        }
-      }
+@media (max-width: 960px) {
+  .photos-link,
+  .credit-link {
+    font-size: 16px; /* Reduce font size for mobile view */
+  }
 
+  .photos-link {
+    font-size: 24px; /* Adjusted size for photos-link */
+  }
+}

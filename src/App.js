@@ -1,11 +1,16 @@
-import React from 'react';
-import Navbar from './components/Navbar';
-import { HashRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
-import './App.css';
-import Home from './components/pages/Home';
-import Schedule from './components/pages/Schedule';
-import Photos from './components/pages/Photos';
-import Contact from './components/pages/Contact';
+import React from "react";
+import Navbar from "./components/Navbar";
+import {
+  HashRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+} from "react-router-dom";
+import "./App.css";
+import Home from "./components/pages/Home";
+import Schedule from "./components/pages/Schedule";
+import Photos from "./components/pages/Photos";
+import Contact from "./components/pages/Contact";
 
 function App() {
   return (
@@ -17,7 +22,7 @@ function App() {
           <Route path='/ocvb/schedule' element={<Schedule />} />
           <Route path='/ocvb/photos' element={<Photos />} />
           <Route path='/ocvb/contact' element={<Contact />} />
-          <Route path='/' element={<Navigate to="/ocvb" />} />
+          <Route path='/' element={<Navigate to='/ocvb' />} />
         </Routes>
       </Router>
     </>
