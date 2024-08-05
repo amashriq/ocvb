@@ -58,21 +58,22 @@
 }
 
 .InstaIcon {
-  color: #e4405f; /* Instagram color */
+  color: white; /* Instagram color */
   transition: color 0.3s ease;
 }
 
 .InstaIcon:hover {
-  color: white; /* Desired hover color */
+  color: #e4405f; /* Instagram color */
 }
 
 .FbIcon {
-  color: #3b5998; /* Facebook color */
+  color: white; /* Facebook color */
   transition: color 0.3s ease;
+  transform: scale(.9);
 }
 
 .FbIcon:hover {
-  color: white; /* Desired hover color */
+  color: #3b5998; /* Facebook color */
 }
 
 @media (max-width: 960px) {

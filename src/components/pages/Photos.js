@@ -33,7 +33,7 @@ export default function Photos() {
     <a className = 'photos-link' href="https://lightroom.adobe.com/shares/77662fc1319f4b9fb8c092ee1b2bbe12" target="_blank" rel="noopener noreferrer">OC Mens Tournament 6/3/23.</a> <br />
     <a className = 'credit-link' href="https://www.instagram.com/bbop.on/" target="_blank" rel="noopener noreferrer"> Photo credit: Brandon</a> <br />
     <br />
-
+    
     </div>
   )
 
