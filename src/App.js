@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './components/Navbar';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import './App.css';
 import Home from './components/pages/Home';
 import Schedule from './components/pages/Schedule';
@@ -17,6 +17,7 @@ function App() {
           <Route path='/ocvb/schedule' element={<Schedule />} />
           <Route path='/ocvb/photos' element={<Photos />} />
           <Route path='/ocvb/contact' element={<Contact />} />
+          <Route path='/' element={<Navigate to="/ocvb" />} />
         </Routes>
       </Router>
     </>
