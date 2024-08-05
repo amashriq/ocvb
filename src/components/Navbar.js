@@ -14,7 +14,7 @@ function Navbar() {
     <>
         <nav className="navbar">
             <div className="navbar-container">
-             <Link to="/" className="navbar-logo">
+             <Link to="/ocvb" className="navbar-logo">
                 <img src={logo} alt="Logo" className="navbar-logo-image" />
              </Link> 
              <div className='menu-icon' onClick={handleClick}>
@@ -22,22 +22,22 @@ function Navbar() {
              </div>
              <ul className={click ? 'nav-menu active' : 'nav-menu'}>
               <li className = 'nav-item'>
-                  <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+                  <Link to='/ocvb' className='nav-links' onClick={closeMobileMenu}>
                       Home
                   </Link>
               </li>
               <li className = 'nav-item'>
-                  <Link to='/schedule' className='nav-links' onClick={closeMobileMenu}>
+                  <Link to='/ocvb/schedule' className='nav-links' onClick={closeMobileMenu}>
                       Schedule
                   </Link>
               </li>
               <li className = 'nav-item'>
-                  <Link to='/photos' className='nav-links' onClick={closeMobileMenu}>
+                  <Link to='/ocvb/photos' className='nav-links' onClick={closeMobileMenu}>
                       Photos
                   </Link>
               </li>
               <li className = 'nav-item'>
-                  <Link to='/contact' className='nav-links' onClick={closeMobileMenu}>
+                  <Link to='/ocvb/contact' className='nav-links' onClick={closeMobileMenu}>
                       Contact Us
                   </Link>
               </li>
