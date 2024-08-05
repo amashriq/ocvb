@@ -19,3 +19,15 @@
     color: #000000;
     text-decoration: none;
     }
+
+    @media (max-width: 960px) {
+        .photos-link,
+        .credit-link {
+          font-size: 16px; /* Reduce font size for mobile view */
+        }
+      
+        .photos-link {
+          font-size: 24px; /* Adjusted size for photos-link */
+        }
+      }
+

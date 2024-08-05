@@ -58,3 +58,16 @@
     transition: transform 0.3s ease; /* Ensure the scale transition is applied */
   }
   
+
+@media (max-width: 960px) {
+  .contact-link-container {
+    flex-direction: column; /* Stack links vertically */
+    align-items: flex-start; /* Align items to the start */
+  }
+
+  .contact-link-insta,
+  .contact-link-fb,
+  .contact-link-email {
+    margin: 5px 0; /* Adjust margin for stacked links */
+  }
+}

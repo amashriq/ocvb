@@ -2,7 +2,7 @@ import React from 'react'
 import '../../App.css'
 import Section from '../Section.js'
 import Footer from '../Footer.js'
-import SecImage from '../../assets/images/oc4.jpg'
+import SecImage from '../../assets/images/oc5.jpg'
 import '../Photos.css'
 
 export default function Photos() {
