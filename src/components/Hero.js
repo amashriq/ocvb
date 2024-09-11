@@ -11,7 +11,10 @@ function Hero() {
           Control <br />
           Volleyball
         </h1>
-        <p>Play in the best Open-Gyms and Tournaments in Maryland!</p>
+        <p>
+          Make sure to follow our Socials for all the most up to date
+          information!
+        </p>
       </div>
     </div>
   );
