@@ -37,11 +37,16 @@ export default function Schedule() {
   );
 
   const Sec2Title = "Upcoming Tournaments";
-  const Sec2Date = "Mens 6s Tournament - Aug 17th, 2024 | $280 per team";
+  const Sec2Date = (
+    <>
+      Mens 6s Tournament - Oct 20th, 2024 | $280 per team <br />
+      Mens 6s Tournament - Nov 9th, 2024 | $280 per team
+    </>
+  );
   const Sec2Content = (
     <>
-      Hello everyone! OC Volleyball will be hosting a comeback tournament August
-      17th at the
+      Hello everyone! OC Volleyball will be hosting tournaments on October 20th
+      and November 9th at the
       <a
         className='link'
         href='https://g.co/kgs/w6bVbXz'
@@ -50,9 +55,9 @@ export default function Schedule() {
       >
         UMD Reckord Armory.
       </a>
-      This tournament will feature two divisions, AA & BB, both with cash prizes
-      and soon to be revealed merch. Anyone wanting to play but not able to make
-      a team, send us a message at
+      These tournaments will feature two divisions, AA & BB, both with cash
+      prizes and soon to be revealed merch. Anyone wanting to play but not able
+      to make a team, send us a message at
       <a
         className='link'
         href='https://www.instagram.com/ocvball'
@@ -62,14 +67,6 @@ export default function Schedule() {
         @ocvball
       </a>
       on Instagram!
-      <a
-        className='link'
-        href='https://docs.google.com/forms/d/e/1FAIpQLScNu4sbnbrLVMMertxjfRDP1MuTqNCxtwx-AP2-4RKj_igsng/viewform'
-        target='_blank'
-        rel='noopener noreferrer'
-      >
-        Click here to sign up.
-      </a>
     </>
   );
 

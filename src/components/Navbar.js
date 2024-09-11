@@ -17,9 +17,7 @@ function Navbar() {
           <Link to='/ocvb' className='navbar-logo'>
             <img src={logo} alt='Logo' className='navbar-logo-image' />
           </Link>
-          <div className='navbar-title'>
-            <h1>OC Volleyball</h1>
-          </div>
+          <div className='navbar-title'></div>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
           </div>
