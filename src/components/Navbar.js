@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "@fortawesome/fontawesome-free/css/all.min.css";
-import logo from "../assets/images/oc_logo-rbg-rtext.png";
+import logo from "../assets/images/oc_logo-rbg.png";
 import "./Navbar.css";
 
 function Navbar() {
