@@ -9,7 +9,8 @@ export default function Schedule() {
   const Sec1Title = "Open-Gym Schedule";
   const Sec1Date = (
     <>
-      No upcoming Open-Gyms <br />
+      Sundays and Fridays
+      <br />
       How it works:
     </>
   );
