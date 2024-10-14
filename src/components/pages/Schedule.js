@@ -2,8 +2,8 @@ import React from "react";
 import "../../App.css";
 import Section from "../Section.js";
 import Footer from "../Footer.js";
-import Sec1Image from "../../assets/images/oc2edit.jpg";
-import Sec2Image from "../../assets/images/collage1.jpg";
+import Sec1Image from "../../assets/images/oc9edit.JPG";
+import Sec2Image from "../../assets/images/oc11.JPG";
 
 export default function Schedule() {
   const Sec1Title = "Upcoming Tournaments";

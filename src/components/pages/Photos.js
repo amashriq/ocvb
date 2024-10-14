@@ -2,7 +2,7 @@ import React from "react";
 import "../../App.css";
 import Section from "../Section.js";
 import Footer from "../Footer.js";
-import SecImage from "../../assets/images/oc5.jpg";
+import SecImage from "../../assets/images/oc14edit.JPG";
 import "../Photos.css";
 
 export default function Photos() {
@@ -10,6 +10,26 @@ export default function Photos() {
     {
       subtitle: (
         <div className='link-container'>
+          <a
+            className='photos-link'
+            href='https://drive.google.com/drive/folders/1o1wJOK4LK_99Q2wCqMpzQcqUpmjt6rn4'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            OC Mens Tournament 8/17/24.
+          </a>{" "}
+          <br />
+          <a
+            className='credit-link'
+            href='https://www.instagram.com/ben.atu/'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            {" "}
+            Photo credit: Benatu Vo
+          </a>{" "}
+          <br />
+          <br />
           <a
             className='photos-link'
             href='https://drive.google.com/drive/folders/1GrPtO7mzzrM9kiUn_L3_G8D22-rIJtKK?usp=sharing'

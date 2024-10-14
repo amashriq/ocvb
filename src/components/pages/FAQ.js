@@ -2,7 +2,8 @@ import React from "react";
 import "../../App.css";
 import Section from "../Section.js";
 import Footer from "../Footer.js";
-import Sec1Image from "../../assets/images/oc2edit.jpg";
+import Sec1Image from "../../assets/images/oc12edit.JPG";
+import Sec2Image from "../../assets/images/oc15edit.JPG";
 
 export default function FAQ() {
   const Sec1Title = "Frequently Asked Questions - Tournaments";
@@ -33,7 +34,7 @@ export default function FAQ() {
       content: (
         <>
           Whether you have a full team, a small group of friends, or are coming
-          alone; send us a message, and we will do our best to find you a spot
+          alone, send us a message, and we will do our best to find you a spot
           to play!
         </>
       ),
@@ -53,7 +54,7 @@ export default function FAQ() {
             target='_blank'
             rel='noopener noreferrer'
           >
-            @ocvball,
+            @ocvball.
           </a>
           When messaging us, be sure to include the names of all your friends
           and the positions they play.
@@ -65,7 +66,7 @@ export default function FAQ() {
       content: (
         <>
           Whether you have a full team, a small group of friends, or are coming
-          alone; Send us a message, and we will do our best to find you a spot
+          alone, send us a message, and we will do our best to find you a spot
           to play!
         </>
       ),
@@ -97,7 +98,7 @@ export default function FAQ() {
   return (
     <div className='FAQ'>
       <Section title={Sec1Title} sections={TQuestions} image={Sec1Image} />
-      <Section title={Sec2Title} sections={OGQuestions} image={Sec1Image} />
+      <Section title={Sec2Title} sections={OGQuestions} image={Sec2Image} />
       <Footer />
     </div>
   );

@@ -3,7 +3,7 @@ import "../../App.css";
 import "../Contact.css";
 import Section from "../Section.js";
 import Footer from "../Footer.js";
-import BG from "../../assets/images/oc6edit.jpg";
+import BG from "../../assets/images/oc8edit.JPG";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram, faFacebook } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";

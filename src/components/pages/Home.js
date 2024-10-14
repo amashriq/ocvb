@@ -2,7 +2,7 @@ import React from "react";
 import "../../App.css";
 import Hero from "../Hero";
 import Section from "../Section";
-import SecImage from "../../assets/images/oc3.jpg";
+import SecImage from "../../assets/images/oc16edit.JPG";
 import Footer from "../Footer";
 
 export default function Home() {
