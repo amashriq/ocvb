@@ -1,7 +1,7 @@
 import React from "react";
 import "./Section.css";
 
-function Section({ title, date, content, image }) {
+function Section({ title, sections = [], image }) {
   return (
     <section className='section'>
       <div
@@ -10,8 +10,12 @@ function Section({ title, date, content, image }) {
       ></div>
       <div className='section-content'>
         <h1>{title}</h1>
-        {date && <h2>{date}</h2>}
-        <p>{content}</p>
+        {sections.map(({ subtitle, content }, index) => (
+          <div key={index} className='section-item'>
+            <div className='subtitle-item'>{subtitle}</div>
+            {content && <div className='content-item'>{content}</div>}
+          </div>
+        ))}
       </div>
     </section>
   );

@@ -11,6 +11,7 @@ import Home from "./components/pages/Home";
 import Schedule from "./components/pages/Schedule";
 import Photos from "./components/pages/Photos";
 import Contact from "./components/pages/Contact";
+import FAQ from "./components/pages/FAQ";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path='/ocvb/schedule' element={<Schedule />} />
           <Route path='/ocvb/photos' element={<Photos />} />
           <Route path='/ocvb/contact' element={<Contact />} />
+          <Route path='/ocvb/FAQ' element={<FAQ />} />
           <Route path='/' element={<Navigate to='/ocvb' />} />
         </Routes>
       </Router>

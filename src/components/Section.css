@@ -50,16 +50,17 @@
   font-weight: bold;
 }
 
-.section-content h2 {
+.subtitle-item {
   font-size: 1.5rem;
+  font-weight: bold;
   max-width: 900px; /* Adjust width as needed */
   line-height: 1.8;
 }
 
-.section-content p {
+.content-item {
   font-size: 1.25rem;
   max-width: 900px; /* Adjust width as needed */
-  line-height: 1.8;
+  line-height: 1.5;
 }
 
 /* Optional: Add styles for responsiveness */
@@ -68,7 +69,11 @@
     font-size: 2rem;
   }
 
-  .section-content p {
+  .subtitle-item {
+    font-size: 1.3rem;
+  }
+
+  .content-item {
     font-size: 1rem;
   }
 }

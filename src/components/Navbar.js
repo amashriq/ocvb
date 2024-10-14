@@ -54,6 +54,15 @@ function Navbar() {
                 Contact Us
               </Link>
             </li>
+            <li className='nav-item'>
+              <Link
+                to='/ocvb/FAQ'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                FAQ's
+              </Link>
+            </li>
           </ul>
         </div>
       </nav>
