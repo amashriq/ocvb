@@ -88,6 +88,11 @@
   }
 }
 
+@media (max-width: 960px) {
+  .cards__title {
+    font-size: 2rem;
+  }
+}
 @media only screen and (min-width: 1024px) {
   .cards__items {
     display: flex;
