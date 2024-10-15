@@ -8,13 +8,14 @@
   transform: translateY(-50px);
   font-size: 4rem; /* Adjust as needed */
   font-weight: bold;
-  color: #333333;
+  color: #000;
   text-align: center;
-  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+  margin-bottom: 0px;
 }
 
 .cards__container {
   display: flex;
+  transform: translateY(-20px);
   flex-flow: column;
   align-items: center;
   max-width: 1120px;

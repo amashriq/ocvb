@@ -33,7 +33,7 @@ export default function Schedule() {
   const Sec2Title = "Open-Gym Schedule";
   const OpenGymSchedule = [
     {
-      subtitle: "Sundays and Mondays",
+      subtitle: "Sundays and Tuesdays",
     },
   ];
 
