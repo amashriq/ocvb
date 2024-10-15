@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import {
-  HashRouter as Router,
+  BrowserRouter as Router,
   Routes,
   Route,
   Navigate,
@@ -19,12 +19,12 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path='/ocvb' element={<Home />} />
-          <Route path='/ocvb/schedule' element={<Schedule />} />
-          <Route path='/ocvb/photos' element={<Photos />} />
-          <Route path='/ocvb/contact' element={<Contact />} />
-          <Route path='/ocvb/FAQ' element={<FAQ />} />
-          <Route path='/' element={<Navigate to='/ocvb' />} />
+          <Route path='/' exact element={<Home />} />
+          <Route path='/schedule' exact element={<Schedule />} />
+          <Route path='/photos' exact element={<Photos />} />
+          <Route path='/contact' exact element={<Contact />} />
+          <Route path='/FAQ' exact element={<FAQ />} />
+          <Route path='/' exact element={<Navigate to='/' />} />
         </Routes>
       </Router>
     </>

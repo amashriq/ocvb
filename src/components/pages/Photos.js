@@ -3,6 +3,7 @@ import "../../App.css";
 import Section from "../Section.js";
 import Footer from "../Footer.js";
 import SecImage from "../../assets/images/oc14edit.JPG";
+import { Link } from "react-router-dom";
 import "../Photos.css";
 
 export default function Photos() {
@@ -149,7 +150,15 @@ export default function Photos() {
             Photo credit: Brandon
           </a>{" "}
           <br />
-          <br />
+        </div>
+      ),
+    },
+    {
+      content: (
+        <div className='link-container'>
+          <Link className='credit-link' to='/contact'>
+            Interested in taking photos for OC? Reach out!
+          </Link>
         </div>
       ),
     },

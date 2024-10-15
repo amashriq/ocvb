@@ -14,7 +14,7 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
-          <Link to='/ocvb' className='navbar-logo'>
+          <Link to='/' className='navbar-logo'>
             <img src={logo} alt='Logo' className='navbar-logo-image' />
           </Link>
           <div className='navbar-title'></div>
@@ -23,13 +23,13 @@ function Navbar() {
           </div>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className='nav-item'>
-              <Link to='/ocvb' className='nav-links' onClick={closeMobileMenu}>
+              <Link to='/' className='nav-links' onClick={closeMobileMenu}>
                 Home
               </Link>
             </li>
             <li className='nav-item'>
               <Link
-                to='/ocvb/schedule'
+                to='/schedule'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
@@ -38,7 +38,7 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/ocvb/photos'
+                to='/photos'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
@@ -47,7 +47,7 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/ocvb/contact'
+                to='/contact'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
@@ -55,11 +55,7 @@ function Navbar() {
               </Link>
             </li>
             <li className='nav-item'>
-              <Link
-                to='/ocvb/FAQ'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
+              <Link to='/FAQ' className='nav-links' onClick={closeMobileMenu}>
                 FAQ's
               </Link>
             </li>
