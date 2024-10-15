@@ -19,7 +19,7 @@
   background-size: cover; /* Ensure the background image covers the container */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Prevent repeating the image */
-  filter: brightness(60%); /* Apply filter to the background image */
+  filter: brightness(60%);
   z-index: 0; /* Ensure it stays behind the content */
 }
 

@@ -21,6 +21,7 @@
   background: url("../assets/images/oc7.JPG") center center/cover no-repeat;
   filter: brightness(60%); /* Apply your desired filter here */
   z-index: -1; /* Ensure it stays behind other content */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
 
 /* Overlay for text */

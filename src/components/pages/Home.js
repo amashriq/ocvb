@@ -2,6 +2,7 @@ import React from "react";
 import "../../App.css";
 import Hero from "../Hero";
 import Section from "../Section";
+import Cards from "../HomeCards";
 import SecImage from "../../assets/images/oc16edit.JPG";
 import Footer from "../Footer";
 
@@ -24,6 +25,7 @@ export default function Home() {
   return (
     <div className='home'>
       <Hero />
+      <Cards />
       <Section title='What is OC?' sections={AboutUs} image={SecImage} />
       <Footer />
     </div>
