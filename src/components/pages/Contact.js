@@ -47,7 +47,7 @@ export default function Contact() {
               size='2x'
               className='Email-Icon'
             />
-            mrocman@gmail.com
+            mrocvball@gmail.com
           </div>
         </div>
       ),

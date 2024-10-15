@@ -1,9 +1,7 @@
 import React from "react";
 import "../../App.css";
-import Section from "../Section.js";
 import Footer from "../Footer.js";
 import SchedCards from "../SchedCards.js";
-import Sec2Image from "../../assets/images/oc11.JPG";
 
 export default function Schedule() {
   /* const Sec1Title = "Upcoming Tournaments";
@@ -30,17 +28,16 @@ export default function Schedule() {
     },
   ]; */
 
-  const Sec2Title = "Open-Gym Schedule";
-  const OpenGymSchedule = [
+  /* const Sec2Title = "Open-Gym Schedule";
+   const OpenGymSchedule = [
     {
       subtitle: "Sundays and Tuesdays",
     },
-  ];
+  ]; */
 
   return (
     <div className='schedule'>
       <SchedCards />
-      <Section title={Sec2Title} sections={OpenGymSchedule} image={Sec2Image} />
       <Footer />
     </div>
   );

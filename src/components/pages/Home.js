@@ -3,7 +3,7 @@ import "../../App.css";
 import Hero from "../Hero";
 import Section from "../Section";
 import Cards from "../HomeCards";
-import SecImage from "../../assets/images/oc16edit.JPG";
+import SecImage from "../../assets/images/oc11.JPG";
 import Footer from "../Footer";
 
 export default function Home() {
