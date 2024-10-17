@@ -3,7 +3,7 @@ import "./Cards.css";
 import CardItem from "./CardItem";
 import TourneySched1 from "../assets/images/TCard.jpg";
 import TourneySched2 from "../assets/images/TCard2.jpg";
-import OpenSched from "../assets/images/MSched1.jpg";
+import OpenSched from "../assets/images/MSched2.png";
 
 function Cards() {
   return (

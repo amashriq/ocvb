@@ -103,15 +103,15 @@
 
 .cards__item__pic-wrap {
   position: relative;
-  width: auto;
+  width: 100%;
   height: auto; /* Allow it to expand based on image height */
   overflow: hidden; /* Prevent cropping */
 }
 
 .cards__item__img {
   display: block;
-  width: auto;
-  max-width: 80vw;
+  width: 100%;
+  max-width: 80vh;
   height: auto; /* Maintain aspect ratio */
   max-height: 80vh; /* Limit image height to viewport height */
   object-fit: contain; /* Ensure the entire image is visible */

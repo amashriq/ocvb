@@ -1,7 +1,7 @@
 import React from "react";
 import "./Cards.css";
 import CardItem from "./CardItem";
-import Sched from "../assets/images/MSched1.jpg";
+import Sched from "../assets/images/MSched2.png";
 
 function Cards() {
   return (

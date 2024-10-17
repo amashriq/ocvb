@@ -7,6 +7,6 @@
 }
 
 body {
-  background-color: rgb(173, 173, 173);
+  background-color: linear-gradient(90deg, #ffffff 0%, #f3efef 100%);
   color: rgb(255, 255, 255);
 }
