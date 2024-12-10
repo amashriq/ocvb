@@ -2,6 +2,7 @@ import React from "react";
 import "../../App.css";
 import Section from "../Section.js";
 import Footer from "../Footer.js";
+import PhotoCards from "../PhotoCards.js";
 import SecImage from "../../assets/images/oc14edit.JPG";
 import { Link } from "react-router-dom";
 import "../Photos.css";

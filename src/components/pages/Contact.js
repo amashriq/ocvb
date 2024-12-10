@@ -36,7 +36,7 @@ export default function Contact() {
             <FontAwesomeIcon icon={faFacebook} size='2x' className='Fb-Icon' />
             OC Volleyball
           </a>
-          <div
+          <a
             className='contact-link-email'
             href='mailto:nickjhingory'
             target='_blank'
@@ -48,7 +48,7 @@ export default function Contact() {
               className='Email-Icon'
             />
             mrocvball@gmail.com
-          </div>
+          </a>
         </div>
       ),
     },

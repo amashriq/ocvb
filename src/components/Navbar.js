@@ -29,11 +29,11 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/schedule'
+                to='/tournaments'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Schedule
+                Tournaments
               </Link>
             </li>
             <li className='nav-item'>
