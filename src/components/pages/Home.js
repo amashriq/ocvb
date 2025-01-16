@@ -25,7 +25,6 @@ export default function Home() {
   return (
     <div className='home'>
       <Hero />
-      <Cards />
       <Section title='What is OC?' sections={AboutUs} image={SecImage} />
       <Footer />
     </div>

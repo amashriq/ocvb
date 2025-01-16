@@ -3,8 +3,10 @@ import "./Cards.css";
 import CardItem from "./CardItem";
 import TourneySched1 from "../assets/images/TCard.jpg";
 import TourneySched2 from "../assets/images/TCard2.jpg";
-import TourneySched3 from "../assets/images/TCard3.jpg";
+import TourneySched3 from "../assets/images/TCard3.PNG";
 import TourneySched4 from "../assets/images/TCard4.jpg";
+import TourneySched5 from "../assets/images/TCard5.jpg";
+import TourneySched6 from "../assets/images/TCard6.jpg";
 
 function Cards() {
   return (
@@ -15,7 +17,12 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src={TourneySched3}
+              src={TourneySched5}
+              text='Click here to navigate to registration form'
+              path='https://linktr.ee/ocvball?utm_source=linktree_profile_share&ltsid=9c0113e6-46ab-401a-b48a-583bc80c3df0'
+            />
+            <CardItem
+              src={TourneySched6}
               text='Click here to navigate to registration form'
               path='https://linktr.ee/ocvball?utm_source=linktree_profile_share&ltsid=9c0113e6-46ab-401a-b48a-583bc80c3df0'
             />
@@ -27,17 +34,17 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
+              src={TourneySched3}
+              text='Click here to navigate to registration form'
+              path='https://linktr.ee/ocvball?utm_source=linktree_profile_share&ltsid=9c0113e6-46ab-401a-b48a-583bc80c3df0'
+            />
+            <CardItem
               src={TourneySched4}
               text='Click here to navigate to registration form'
               path='https://linktr.ee/ocvball?utm_source=linktree_profile_share&ltsid=9c0113e6-46ab-401a-b48a-583bc80c3df0'
             />
             <CardItem
               src={TourneySched2}
-              text='Click here to navigate to registration form'
-              path='https://linktr.ee/ocvball?utm_source=linktree_profile_share&ltsid=9c0113e6-46ab-401a-b48a-583bc80c3df0'
-            />
-            <CardItem
-              src={TourneySched1}
               text='Click here to navigate to registration form'
               path='https://linktr.ee/ocvball?utm_source=linktree_profile_share&ltsid=9c0113e6-46ab-401a-b48a-583bc80c3df0'
             />
